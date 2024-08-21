@@ -1,0 +1,7 @@
+<launch>
+    <node name='turtlesim_node' pkg='turtlesim' type='turtlesim_node' />
+    <node name='draw_cycle' pkg='begin' type='draw_circle.py' />
+    <node name='pose' pkg='begin' type='pose.py' output='screen'/>
+
+
+</launch>

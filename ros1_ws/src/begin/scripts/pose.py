@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-
 import rospy
 from turtlesim.msg import Pose
+
+
 
 def callback(msg):
     rospy.loginfo('Position of turtle1: x=%f, y=%f, theta=%f', msg.x, msg.y, msg.theta)
